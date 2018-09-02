@@ -1,5 +1,7 @@
-package spittr.web;
+package spittr.config;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+import spittr.config.RootConfig;
+import spittr.config.WebConfig;
 
 public class SpittrWbeApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
